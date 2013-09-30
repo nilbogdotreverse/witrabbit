@@ -1,0 +1,12 @@
+<div id="content">
+  <div id="page">
+
+    <p>
+      <% @readings.each do |reading| %>
+
+          <%= image_tag(reading.flyer_url) if reading.flyer? %><br>
+          <b><%= link_to(reading.title, reading.fb_link) %></b>
+      <% end %>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<p>
+  <strong> Title:</strong>
+  <%=	 @reading.title %>
+</p>
+
+<p>
+  <strong> Description:</strong>
+  <%= @reading.description %>
+</p>
+
+<p>
+  <%= link_to "Facebook Invite", @reading.fb_link %>
+</p>
+
+<p>
+  <strong> Date:</strong>
+  <%= @reading.date.mday %>
+</p>
+<p>
+  <%= image_tag(@reading.flyer_url) if @reading.flyer? %>
+</p>

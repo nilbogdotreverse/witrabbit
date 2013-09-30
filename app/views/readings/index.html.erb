@@ -1,0 +1,41 @@
+<header id="header" role="banner">
+  <h1>Wit Rabbit Reading Series</h1>
+  </header>
+  <div id="tabs">
+     <ul>
+      <li><a href="#tabs-1">Home</a></li>
+      <li><a href="#tabs-2" onclick="masonry()">Past Readers</a></li>
+      <li><a href="#tabs-3">Quenchers</a></li>
+      <li><a href="#tabs-4">Meet Our Friends</a></li>
+      <li><a href="#tabs-5">Other Readings</a></li>
+      <li><a href="#tabs-6">Publication and Press</a></li>
+      <li><a href="mailto:rarewitrarebit@gmail.com?subject=Interested In Reading">Want to read?</a></li>
+     </ul>
+
+
+  <div id="tabs-1"><%= render :partial => "shared/reading" %> </div>
+  <div id="tabs-2"><%= render :partial => "shared/reader"%> </div>
+  <div id="tabs-3"><%= render :partial => "shared/quenchers"%> </div>
+  <div id="tabs-4"><%= render :partial => "shared/friends"%> </div>
+  <div id="tabs-5"><%= render :partial => "shared/others"%> </div>
+  <div id="tabs-6"><%= render :partial => "shared/press"%> </div>
+</div>
+
+<footer id="footer">
+  <small>
+    This Train Runs On <a href="http://rubyonrails.org/" rel="generator">Rails</a>.
+  </small>
+<!--
+  <div id="site-generator">
+    <li id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" action="http://www.witrabbitreads.com/" >
+      <label class="screen-reader-text" for="s">Search for:</label>
+        <input type="text" value="" name="s" id="s" />
+        <input type="submit" id="searchsubmit" value="Search" /
+    </form></li>
+    </ul>
+-->
+    <!--
+    <li class="rss"><a href="http://www.witrabbitreads.com/?feed=rss" rel="alternate">RSS</a></li>
+    !-->
+  <!-- #site-generator -->
+</footer>

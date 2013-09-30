@@ -1,0 +1,10 @@
+<div id="content">
+  <div id="page">
+    <div id="container" class="js-masonry"
+         data-masonry-options='{itemSelector": ".item" }'>
+      <% @readers.each do |r| %>
+          <div class="item"><%= link_to(r.name, r.webpage) %></div>
+      <% end %>
+      </div>
+  </div>
+</div>

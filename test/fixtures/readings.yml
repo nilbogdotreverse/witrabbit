@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  description: MyText
+  fb_link: MyString
+  date: 
+  flyer: 
+
+two:
+  title: MyString
+  description: MyText
+  fb_link: MyString
+  date: 
+  flyer: 
